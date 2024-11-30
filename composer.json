@@ -26,7 +26,7 @@
     },
     "autoload": {
         "psr-4": {
-            "matiasdamiandelsolar\\GeoIp2\\": "src"
+            "matiasdamian\\GeoIp2\\": "src"
         }
     },
     "extra": {

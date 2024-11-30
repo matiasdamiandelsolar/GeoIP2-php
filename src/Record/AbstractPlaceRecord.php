@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace GeoIp2\Record;
+namespace matiasdamian\GeoIp2\Record;
 
 abstract class AbstractPlaceRecord extends AbstractNamedRecord
 {

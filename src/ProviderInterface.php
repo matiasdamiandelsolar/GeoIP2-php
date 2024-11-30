@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace GeoIp2;
+namespace matiasdamian\GeoIp2;
 
 interface ProviderInterface
 {

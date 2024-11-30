@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace GeoIp2\Record;
+namespace matiasdamian\GeoIp2\Record;
 
 /**
  * Contains data for the subdivisions associated with an IP address.

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace GeoIp2\Exception;
+namespace matiasdamian\GeoIp2\Exception;
 
 /**
  *  This class represents an HTTP transport error.

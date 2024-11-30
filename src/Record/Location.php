@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace GeoIp2\Record;
+namespace matiasdamian\GeoIp2\Record;
 
 /**
  * Contains data for the location record associated with an IP address.
