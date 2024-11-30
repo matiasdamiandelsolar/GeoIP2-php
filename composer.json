@@ -28,5 +28,11 @@
         "psr-4": {
             "GeoIp2\\": "src"
         }
-    }
+    },
+    "extra": {
+		"virion": {
+			"spec": "3.0",
+			"namespace-root": "GeoIp2"
+		}
+	}
 }
