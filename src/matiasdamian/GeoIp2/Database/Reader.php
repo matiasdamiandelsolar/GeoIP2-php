@@ -14,9 +14,9 @@ use matiasdamian\GeoIp2\Model\Domain;
 use matiasdamian\GeoIp2\Model\Enterprise;
 use matiasdamian\GeoIp2\Model\Isp;
 use matiasdamian\GeoIp2\ProviderInterface;
-use MaxMind\Db\Reader as DbReader;
-use MaxMind\Db\Reader\InvalidDatabaseException;
-use MaxMind\Db\Reader\Metadata;
+use matiasdamian\MaxMind\Db\Reader as DbReader;
+use matiasdamian\MaxMind\Db\Reader\InvalidDatabaseException;
+use matiasdamian\MaxMind\Db\Reader\Metadata;
 
 /**
  * Instances of this class provide a reader for the GeoIP2 database format.

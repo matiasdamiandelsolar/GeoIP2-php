@@ -14,10 +14,10 @@ use matiasdamian\GeoIp2\Model\City;
 use matiasdamian\GeoIp2\Model\Country;
 use matiasdamian\GeoIp2\Model\Insights;
 use matiasdamian\GeoIp2\ProviderInterface;
-use MaxMind\Exception\InsufficientFundsException;
-use MaxMind\Exception\IpAddressNotFoundException;
-use MaxMind\Exception\WebServiceException;
-use MaxMind\WebService\Client as WsClient;
+use matiasdamian\MaxMind\Exception\InsufficientFundsException;
+use matiasdamian\MaxMind\Exception\IpAddressNotFoundException;
+use matiasdamian\MaxMind\Exception\WebServiceException;
+use matiasdamian\MaxMind\WebService\Client as WsClient;
 
 /**
  * This class provides a client API for all the GeoIP2 web services.
