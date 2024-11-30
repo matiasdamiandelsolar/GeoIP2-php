@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace GeoIp2\Record;
+namespace matiasdamian\matiasdamian\GeoIp2\Record;
 
 /**
  * City-level data associated with an IP address.

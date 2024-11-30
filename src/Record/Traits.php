@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace GeoIp2\Record;
+namespace matiasdamian\matiasdamian\GeoIp2\Record;
 
-use GeoIp2\Util;
+use matiasdamian\matiasdamian\GeoIp2\Util;
 
 /**
  * Contains data for the traits record associated with an IP address.

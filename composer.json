@@ -1,5 +1,5 @@
 {
-    "name": "matiasdamiandelsolar/geoip2-php",
+    "name": "matiasdamian/geoip2-php",
     "description": "MaxMind GeoIP2 PHP API",
     "keywords": ["geoip", "geoip2", "geolocation", "ip", "maxmind"],
     "homepage": "https://github.com/maxmind/GeoIP2-php",
@@ -26,7 +26,7 @@
     },
     "autoload": {
         "psr-4": {
-            "matiasdamiandelsolar\\GeoIp2\\": "src"
+            "matiasdamian\\GeoIp2\\": "src"
         }
     },
     "extra": {

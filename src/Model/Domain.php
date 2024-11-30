@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace GeoIp2\Model;
+namespace matiasdamian\matiasdamian\GeoIp2\Model;
 
-use GeoIp2\Util;
+use matiasdamian\matiasdamian\GeoIp2\Util;
 
 /**
  * This class provides the GeoIP2 Domain model.

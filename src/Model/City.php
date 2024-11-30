@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace GeoIp2\Model;
+namespace matiasdamian\matiasdamian\GeoIp2\Model;
 
-use GeoIp2\Record\City as CityRecord;
-use GeoIp2\Record\Location;
-use GeoIp2\Record\Postal;
-use GeoIp2\Record\Subdivision;
+use matiasdamian\matiasdamian\GeoIp2\Record\City as CityRecord;
+use matiasdamian\matiasdamian\GeoIp2\Record\Location;
+use matiasdamian\matiasdamian\GeoIp2\Record\Postal;
+use matiasdamian\matiasdamian\GeoIp2\Record\Subdivision;
 
 /**
  * Model class for the data returned by City Plus web service and City

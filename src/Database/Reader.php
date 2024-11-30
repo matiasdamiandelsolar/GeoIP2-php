@@ -2,21 +2,21 @@
 
 declare(strict_types=1);
 
-namespace GeoIp2\Database;
+namespace matiasdamian\matiasdamian\GeoIp2\Database;
 
-use GeoIp2\Exception\AddressNotFoundException;
-use GeoIp2\Model\AnonymousIp;
-use GeoIp2\Model\Asn;
-use GeoIp2\Model\City;
-use GeoIp2\Model\ConnectionType;
-use GeoIp2\Model\Country;
-use GeoIp2\Model\Domain;
-use GeoIp2\Model\Enterprise;
-use GeoIp2\Model\Isp;
-use GeoIp2\ProviderInterface;
-use MaxMind\Db\Reader as DbReader;
-use MaxMind\Db\Reader\InvalidDatabaseException;
-use MaxMind\Db\Reader\Metadata;
+use matiasdamian\matiasdamian\GeoIp2\Exception\AddressNotFoundException;
+use matiasdamian\matiasdamian\GeoIp2\Model\AnonymousIp;
+use matiasdamian\matiasdamian\GeoIp2\Model\Asn;
+use matiasdamian\matiasdamian\GeoIp2\Model\City;
+use matiasdamian\matiasdamian\GeoIp2\Model\ConnectionType;
+use matiasdamian\matiasdamian\GeoIp2\Model\Country;
+use matiasdamian\matiasdamian\GeoIp2\Model\Domain;
+use matiasdamian\matiasdamian\GeoIp2\Model\Enterprise;
+use matiasdamian\matiasdamian\GeoIp2\Model\Isp;
+use matiasdamian\matiasdamian\GeoIp2\ProviderInterface;
+use matiasdamian\MaxMind\Db\Reader as DbReader;
+use matiasdamian\MaxMind\Db\Reader\InvalidDatabaseException;
+use matiasdamian\MaxMind\Db\Reader\Metadata;
 
 /**
  * Instances of this class provide a reader for the GeoIP2 database format.

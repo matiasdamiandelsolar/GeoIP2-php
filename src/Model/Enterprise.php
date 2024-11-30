@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace GeoIp2\Model;
+namespace matiasdamian\matiasdamian\GeoIp2\Model;
 
 /**
  * Model class for the data returned by GeoIP2 Enterprise database lookups.

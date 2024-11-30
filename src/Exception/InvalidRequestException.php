@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace GeoIp2\Exception;
+namespace matiasdamian\matiasdamian\GeoIp2\Exception;
 
 /**
  * This class represents an error returned by MaxMind's GeoIP2

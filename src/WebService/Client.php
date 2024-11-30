@@ -2,22 +2,22 @@
 
 declare(strict_types=1);
 
-namespace GeoIp2\WebService;
+namespace matiasdamian\matiasdamian\GeoIp2\WebService;
 
-use GeoIp2\Exception\AddressNotFoundException;
-use GeoIp2\Exception\AuthenticationException;
-use GeoIp2\Exception\GeoIp2Exception;
-use GeoIp2\Exception\HttpException;
-use GeoIp2\Exception\InvalidRequestException;
-use GeoIp2\Exception\OutOfQueriesException;
-use GeoIp2\Model\City;
-use GeoIp2\Model\Country;
-use GeoIp2\Model\Insights;
-use GeoIp2\ProviderInterface;
-use MaxMind\Exception\InsufficientFundsException;
-use MaxMind\Exception\IpAddressNotFoundException;
-use MaxMind\Exception\WebServiceException;
-use MaxMind\WebService\Client as WsClient;
+use matiasdamian\matiasdamian\GeoIp2\Exception\AddressNotFoundException;
+use matiasdamian\matiasdamian\GeoIp2\Exception\AuthenticationException;
+use matiasdamian\matiasdamian\GeoIp2\Exception\GeoIp2Exception;
+use matiasdamian\matiasdamian\GeoIp2\Exception\HttpException;
+use matiasdamian\matiasdamian\GeoIp2\Exception\InvalidRequestException;
+use matiasdamian\matiasdamian\GeoIp2\Exception\OutOfQueriesException;
+use matiasdamian\matiasdamian\GeoIp2\Model\City;
+use matiasdamian\matiasdamian\GeoIp2\Model\Country;
+use matiasdamian\matiasdamian\GeoIp2\Model\Insights;
+use matiasdamian\matiasdamian\GeoIp2\ProviderInterface;
+use matiasdamian\MaxMind\Exception\InsufficientFundsException;
+use matiasdamian\MaxMind\Exception\IpAddressNotFoundException;
+use matiasdamian\MaxMind\Exception\WebServiceException;
+use matiasdamian\MaxMind\WebService\Client as WsClient;
 
 /**
  * This class provides a client API for all the GeoIP2 web services.
